@@ -19,7 +19,7 @@ npm install --global gatsby-cli
 And run from your CLI:
 
 ```sh
-gatsby new <site-name> https://github.com/anubhavsrivastava/gatsby-starter-spectral
+gatsby new <site-name> https://github.com/SilverJRM/gatsby_jromcv
 ```
 
 Then you can run it by:

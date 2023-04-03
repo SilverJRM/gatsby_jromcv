@@ -128,25 +128,25 @@ const IndexPage = () => (
         </header>
         <ul className="features">
           <li className="icon fa-paper-plane">
-            <h3>Application Development Lead</h3>
+            <h3>Application Development Lead </h3>
             <p>
-              2022 - Present <br />
+              [Accenture] <br /> 2022 - Present <br />
               Nodejs, Python, ReactJS, Redux/reduxjstoolkit, Solidity, Google
               Cloud, Jenkins, Power Automate
             </p>
           </li>
           <li className="icon solid fa-laptop">
-            <h3>Blockchain Developer</h3>
+            <h3>Blockchain Developer </h3>
             <p>
-              2021 - 2022 <br />
+              [Freelance] <br /> 2021 - 2022 <br />
               Nodejs, Solidity, Python, JavaScript, ReactJS, Moralis,
               PostgreSQL, Hardhat framework, Brownie framework, Express, MongoDB
             </p>
           </li>
           <li className="icon solid fa-code">
-            <h3>Sr. Technical Consultant</h3>
+            <h3>Sr. Technical Consultant </h3>
             <p>
-              2006 - 2020 <br />
+              [Infor] <br /> 2006 - 2020 <br />
               COBOL, JavaScript, SQL, HTML, Design Studio, Infor Process
               Automation
             </p>
@@ -154,7 +154,7 @@ const IndexPage = () => (
           <li className="icon solid fa-headphones-alt">
             <h3>Software Engineer</h3>
             <p>
-              2004 - 2006 <br />
+              [Accenture] <br /> 2004 - 2006 <br />
               Cobol, C++
             </p>
           </li>
@@ -187,7 +187,7 @@ const IndexPage = () => (
         </header>
         <ul className="actions stacked">
           <li>
-            <a href="/" className="button fit primary">
+            <a href="#" className="button fit primary">
               TOP
             </a>
           </li>
