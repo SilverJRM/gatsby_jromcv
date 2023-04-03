@@ -187,7 +187,7 @@ const IndexPage = () => (
         </header>
         <ul className="actions stacked">
           <li>
-            <a href="/#" className="button fit primary">
+            <a href="/" className="button fit primary">
               TOP
             </a>
           </li>
