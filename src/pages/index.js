@@ -4,8 +4,8 @@ import Layout from '../components/Layout';
 
 import Scroll from '../components/Scroll';
 
-import pic1 from '../assets/images/pic01.jpg';
-import pic2 from '../assets/images/pic02.jpg';
+import pic1 from '../assets/images/API_Server.jpg';
+import pic2 from '../assets/images/TradeBot WebPage.jpg';
 import pic3 from '../assets/images/pic03.jpg';
 import config from '../../config';
 const IndexPage = () => (
@@ -34,17 +34,20 @@ const IndexPage = () => (
     <section id="one" className="wrapper style1 special">
       <div className="inner">
         <header className="major">
-          <h2>
-            Arcu aliquet vel lobortis ata nisl
-            <br />
-            eget augue amet aliquet nisl cep donec
-          </h2>
+          <h2>Summary</h2>
           <p>
-            Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet
-            eleifend
+            18+ years experience in software development, w/c includes more than
+            a decade of consulting work working directly with clients [onsite &
+            remote].
             <br />
-            fringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus
-            ullamcorper.
+            <br />
+            Has worked on 60-70+ projects ~45% of as a lead/solo consultant.
+            Full implementation of projects from design, estimation, coding,
+            testing, deployment and support.
+            <br />
+            <br />
+            Confident on learning new/any technologies on pursuit of solving
+            problems
           </p>
         </header>
         <ul className="icons major">
@@ -74,13 +77,13 @@ const IndexPage = () => (
         </div>
         <div className="content">
           <h2>
-            Magna primis lobortis
+            Express/Axios API Server
             <br />
-            sed ullamcorper
           </h2>
           <p>
-            Aliquam ut ex ut augue consectetur interdum. Donec hendrerit
-            imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.
+            This server provides convenient access to a PostGre database through
+            a network of endpoints that allow for easy read, write, and update
+            operations.
           </p>
         </div>
       </section>
@@ -89,18 +92,17 @@ const IndexPage = () => (
           <img src={pic2} alt="" />
         </div>
         <div className="content">
-          <h2>
-            Tortor dolore feugiat
-            <br />
-            elementum magna
-          </h2>
+          <h2>Web Page for Trading Bot</h2>
           <p>
-            Aliquam ut ex ut augue consectetur interdum. Donec hendrerit
-            imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.
+            Fast and reliable trading bot webpage is built using modern
+            technologies such as vite, react, and redux-toolkit. It provides
+            easy-to-read details about ongoing trades and the current status of
+            the bot on the network. The webpage seamlessly reads data from
+            endpoints on our API server.
           </p>
         </div>
       </section>
-      <section className="spotlight">
+      {/* <section className="spotlight">
         <div className="image">
           <img src={pic3} alt="" />
         </div>
@@ -115,64 +117,55 @@ const IndexPage = () => (
             imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.
           </p>
         </div>
-      </section>
+      </section> */}
     </section>
 
     <section id="three" className="wrapper style3 special">
       <div className="inner">
         <header className="major">
-          <h2>Accumsan mus tortor nunc aliquet</h2>
-          <p>
-            Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet
-            eleifend
-            <br />
-            fringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus
-            ullamcorper.
-          </p>
+          <h2>Experience</h2>
+          <p>programming language and tools used</p>
         </header>
         <ul className="features">
           <li className="icon fa-paper-plane">
-            <h3>Arcu accumsan</h3>
+            <h3>Application Development Lead</h3>
             <p>
-              Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
-              tincidunt nullam amet leo Aenean ligula consequat consequat.
+              Nodejs, Python, ReactJS, Redux/reduxjstoolkit, Solidity, Google
+              Cloud, Jenkins, Power Automate
             </p>
           </li>
           <li className="icon solid fa-laptop">
-            <h3>Ac Augue Eget</h3>
+            <h3>Blockchain Developer</h3>
             <p>
-              Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
-              tincidunt nullam amet leo Aenean ligula consequat consequat.
+              Nodejs, Solidity, Python, JavaScript, ReactJS, Moralis,
+              PostgreSQL, Hardhat framework, Brownie framework, Express, MongoDB
             </p>
           </li>
           <li className="icon solid fa-code">
-            <h3>Mus Scelerisque</h3>
+            <h3>Sr. Technical Consultant</h3>
             <p>
-              Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
-              tincidunt nullam amet leo Aenean ligula consequat consequat.
+              COBOL, JavaScript, SQL, HTML, Design Studio, Infor Process
+              Automation
             </p>
           </li>
           <li className="icon solid fa-headphones-alt">
-            <h3>Mauris Imperdiet</h3>
-            <p>
-              Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
-              tincidunt nullam amet leo Aenean ligula consequat consequat.
-            </p>
+            <h3>Software Engineer</h3>
+            <p>Cobol, C++</p>
           </li>
-          <li className="icon fa-heart">
-            <h3>Aenean Primis</h3>
+          {/* <li className="icon fa-heart">
+            <h3>Solidity</h3>
             <p>
               Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
               tincidunt nullam amet leo Aenean ligula consequat consequat.
             </p>
           </li>
           <li className="icon fa-flag">
-            <h3>Tortor Ut</h3>
+            <h3>SQL</h3>
             <p>
               Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
               tincidunt nullam amet leo Aenean ligula consequat consequat.
             </p>
-          </li>
+          </li> */}
         </ul>
       </div>
     </section>
@@ -180,23 +173,23 @@ const IndexPage = () => (
     <section id="cta" className="wrapper style4">
       <div className="inner">
         <header>
-          <h2>Arcue ut vel commodo</h2>
-          <p>
+          <h2>Back to top</h2>
+          {/* <p>
             Aliquam ut ex ut augue consectetur interdum endrerit imperdiet amet
             eleifend fringilla.
-          </p>
+          </p> */}
         </header>
         <ul className="actions stacked">
           <li>
             <a href="/#" className="button fit primary">
-              Activate
+              TOP
             </a>
           </li>
-          <li>
+          {/* <li>
             <a href="/#" className="button fit">
               Learn More
             </a>
-          </li>
+          </li> */}
         </ul>
       </div>
     </section>
