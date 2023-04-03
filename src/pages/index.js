@@ -130,6 +130,7 @@ const IndexPage = () => (
           <li className="icon fa-paper-plane">
             <h3>Application Development Lead</h3>
             <p>
+              2022 - Present <br />
               Nodejs, Python, ReactJS, Redux/reduxjstoolkit, Solidity, Google
               Cloud, Jenkins, Power Automate
             </p>
@@ -137,6 +138,7 @@ const IndexPage = () => (
           <li className="icon solid fa-laptop">
             <h3>Blockchain Developer</h3>
             <p>
+              2021 - 2022 <br />
               Nodejs, Solidity, Python, JavaScript, ReactJS, Moralis,
               PostgreSQL, Hardhat framework, Brownie framework, Express, MongoDB
             </p>
@@ -144,13 +146,17 @@ const IndexPage = () => (
           <li className="icon solid fa-code">
             <h3>Sr. Technical Consultant</h3>
             <p>
+              2006 - 2020 <br />
               COBOL, JavaScript, SQL, HTML, Design Studio, Infor Process
               Automation
             </p>
           </li>
           <li className="icon solid fa-headphones-alt">
             <h3>Software Engineer</h3>
-            <p>Cobol, C++</p>
+            <p>
+              2004 - 2006 <br />
+              Cobol, C++
+            </p>
           </li>
           {/* <li className="icon fa-heart">
             <h3>Solidity</h3>
