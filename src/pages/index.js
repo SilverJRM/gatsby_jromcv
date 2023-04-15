@@ -4,9 +4,9 @@ import Layout from '../components/Layout';
 
 import Scroll from '../components/Scroll';
 
-import pic1 from '../assets/images/API_Server.jpg';
-import pic2 from '../assets/images/TradeBot WebPage.jpg';
-import pic3 from '../assets/images/pic03.jpg';
+import pic1 from '../assets/images/frontend_programming.jpg';
+import pic2 from '../assets/images/backend_programming.jpg';
+import pic3 from '../assets/images/web_programming.jpg';
 import config from '../../config';
 const IndexPage = () => (
   <Layout>
@@ -36,9 +36,14 @@ const IndexPage = () => (
         <header className="major">
           <h2>Summary</h2>
           <p>
-            18+ years experience in software development, w/c includes more than
-            a decade of consulting work working directly with clients [onsite &
-            remote].
+            In ChatGPT I trust, with ChatGPT I can confidently build or
+            undertake any software project. Building my proficiency in using
+            ChatGPT and has 3+ projects and counting built with the assistance
+            of ChatGPT.
+            <br />
+            <br />
+            18+ years of software development, w/c includes more than a decade
+            of consulting work working directly with clients [onsite & remote].
             <br />
             <br />
             Has worked on 60-70+ projects ~45% of as a lead/solo consultant.
@@ -70,57 +75,7 @@ const IndexPage = () => (
       </div>
     </section>
 
-    <section id="two" className="wrapper alt style2">
-      <section className="spotlight">
-        <div className="image">
-          <img src={pic1} alt="" />
-        </div>
-        <div className="content">
-          <h2>
-            Express/Axios API Server
-            <br />
-          </h2>
-          <p>
-            This server provides convenient access to a PostGre database through
-            a network of endpoints that allow for easy read, write, and update
-            operations.
-          </p>
-        </div>
-      </section>
-      <section className="spotlight">
-        <div className="image">
-          <img src={pic2} alt="" />
-        </div>
-        <div className="content">
-          <h2>Web Page for Trading Bot</h2>
-          <p>
-            Fast and reliable trading bot webpage is built using modern
-            technologies such as vite, react, and redux-toolkit. It provides
-            easy-to-read details about ongoing trades and the current status of
-            the bot on the network. The webpage seamlessly reads data from
-            endpoints on our API server.
-          </p>
-        </div>
-      </section>
-      {/* <section className="spotlight">
-        <div className="image">
-          <img src={pic3} alt="" />
-        </div>
-        <div className="content">
-          <h2>
-            Augue eleifend aliquet
-            <br />
-            sed condimentum
-          </h2>
-          <p>
-            Aliquam ut ex ut augue consectetur interdum. Donec hendrerit
-            imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.
-          </p>
-        </div>
-      </section> */}
-    </section>
-
-    <section id="three" className="wrapper style3 special">
+    <section id="two" className="wrapper style3 special">
       <div className="inner">
         <header className="major">
           <h2>Experience</h2>
@@ -176,6 +131,55 @@ const IndexPage = () => (
       </div>
     </section>
 
+    <section id="three" className="wrapper alt style2"></section>
+    <section className="spotlight">
+      <div className="image">
+        <img src={pic1} alt="" />
+      </div>
+      <div className="content">
+        <h2>
+          Skills
+          <br />
+        </h2>
+        <p>ChatGPT</p>
+        <p>JavaScript</p>
+        <p>NodeJS</p>
+        <p>ReactJS</p>
+        <p>Redux/reduxjstoolkit</p>
+      </div>
+    </section>
+    <section className="spotlight">
+      <div className="image">
+        <img src={pic2} alt="" />
+      </div>
+      <div className="content">
+        <h2>
+          Skills
+          <br />
+        </h2>
+        <p>Python</p>
+        <p>Ubuntu Server</p>
+        <p>Jenkins</p>
+        <p>PostgreSQL</p>
+        <p>Solidity</p>
+      </div>
+    </section>
+    <section className="spotlight">
+      <div className="image">
+        <img src={pic3} alt="" />
+      </div>
+      <div className="content">
+        <h2>
+          Skills
+          <br />
+        </h2>
+        <p>COBOL/Lawson 4GL</p>
+        <p>IPA (infor process automation)</p>
+        <p>Design Studio</p>
+        <p>C++</p>
+        <p>SQL</p>
+      </div>
+    </section>
     <section id="cta" className="wrapper style4">
       <div className="inner">
         <header>

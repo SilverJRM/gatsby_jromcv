@@ -31,9 +31,9 @@ const IndexPage = () => (
 
           <p>
             When forced in-doors, I like to cook, and used to play a lot of
-            blizard games [Starcraft/Diablo/Warcraft] and some Dota. But
-            currently spend more time exploring new technologies in blockchain
-            and web development
+            blizard games [Starcraft/Diablo/Warcraft] and some Dota. Currently
+            burns my time learning/exploring new technologies in blockchain and
+            software development
           </p>
         </div>
       </section>

@@ -1,5 +1,5 @@
 module.exports = {
-  siteTitle: 'JROM CV', // <title>
+  siteTitle: 'Jerome Occiano', // <title>
   manifestName: 'jromcv',
   manifestShortName: 'Landing', // max 12 characters
   manifestStartUrl: '/',
