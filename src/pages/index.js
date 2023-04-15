@@ -37,9 +37,8 @@ const IndexPage = () => (
           <h2>Summary</h2>
           <p>
             In ChatGPT I trust, with ChatGPT I can confidently build or
-            undertake any software project. Building my proficiency in using
-            ChatGPT and has 3+ projects and counting built with the assistance
-            of ChatGPT.
+            undertake any software project. Building proficiency in using
+            ChatGPT, completed 3+ projects and counting.
             <br />
             <br />
             18+ years of software development, w/c includes more than a decade
